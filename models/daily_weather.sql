@@ -21,6 +21,7 @@ daily_weather_agg as
     round(avg(pressure),2) as avg_pressure,
     round(avg(humidity),2) as avg_humidity,
     round(avg(clouds),2) as avg_clouds,
+    
 
     from daily_weather
 
